@@ -1,0 +1,14 @@
+id: e49a08e5-5641-4f2d-9755-88d1e533bd81
+timestamp: 2024-01-22T19:48:00.981Z
+source: TAP-GUI
+username: mpluya
+accelerator:
+  name: react-frontend
+fragments:
+  - name: tap-workload
+options:
+  bsGitBranch: main
+  projectName: react-frontend
+  artifactId: react-frontend
+  backendService: java-rest-service-azure.mae
+  bsGitRepository: github.com?owner=Mpluya&repo=react-frontend
