@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: react-frontend
+  namespace: mae
   description: React Single Page Application with client side rendered web UI. Application provides Service to interact with backend API's.
   tags:
     - react
