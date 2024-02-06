@@ -12,9 +12,7 @@ spec:
       - name: BP_NODE_RUN_SCRIPTS
         value: "build"
       - name: BP_WEB_SERVER_ROOT
-        value: "dist"
-      - name: NPM_CONFIG_PRODUCTION
-        value: "true"
+        value: "build"
   params:
     - name: annotations
       value:
