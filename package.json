@@ -13,6 +13,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "build": "react-scripts build",
+
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -33,7 +35,7 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://java-rest-service-azure.mae.run.cssa.tapsme.org",
+  "proxy": "http://java-rest-service-azure.mae",
   "devDependencies": {
     "react-scripts": "^5.0.1",
     "@pact-foundation/pact": "^10.1.4",
