@@ -7,16 +7,25 @@ metadata:
     apps.tanzu.vmware.com/workload-type: web
     app.kubernetes.io/part-of: react-frontend
 spec:
-  params:
-    - name: annotations
-      value:
-        autoscaling.knative.dev/minScale: "1"
   build:
     env:
       - name: BP_NODE_RUN_SCRIPTS
         value: "build"
       - name: BP_WEB_SERVER_ROOT
-        value: "build"
+        value: "dist"
+  params:
+    - name: annotations
+      value:
+        autoscaling.knative.dev/minScale: "1"
+    - name: clusterBuilder
+      value: full-jammy  
+  resources:     
+    requests:         
+      memory: "500M"
+      cpu: "100m"
+    limits:         
+      memory: "750M"
+      cpu: "1500m"       
   source:
     git:
       url: https://github.com/Mpluya/react-frontend
