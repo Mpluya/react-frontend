@@ -33,7 +33,7 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://java-rest-service-azure.mae",
+  "proxy": "https://java-rest-service-azure.mae.run.cssa.tapsme.org",
   "devDependencies": {
     "react-scripts": "^5.0.1",
     "@pact-foundation/pact": "^10.1.4",
