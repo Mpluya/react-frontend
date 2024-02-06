@@ -19,8 +19,6 @@ spec:
     - name: annotations
       value:
         autoscaling.knative.dev/minScale: "1"
-    - name: clusterBuilder
-      value: full-jammy  
   resources:     
     requests:         
       memory: "500M"
