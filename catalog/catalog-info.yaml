@@ -10,7 +10,7 @@ metadata:
     - tanzu
     - typescript
   annotations:
-    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=react-frontend"
+    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=java-rest-service-azure"
 spec:
   type: website
   lifecycle: experimental
