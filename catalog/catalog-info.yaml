@@ -12,6 +12,6 @@ metadata:
     - tanzu
     - typescript
 spec:
-  type: service
+  type: website
   lifecycle: production
   owner: team-awesome
