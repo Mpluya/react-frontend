@@ -13,5 +13,5 @@ metadata:
     - typescript
 spec:
   type: website
-  lifecycle: experimental
-  owner: default-team
+  lifecycle: production
+  owner: team-awesome
