@@ -4,13 +4,13 @@ metadata:
   name: react-frontend
   namespace: mae
   description: React Single Page Application with client side rendered web UI. Application provides Service to interact with backend API's.
+  annotations:
+    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=react-frontend"
   tags:
     - react
     - web
     - tanzu
     - typescript
-  annotations:
-    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=react-frontend"
 spec:
   type: website
   lifecycle: experimental
